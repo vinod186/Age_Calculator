@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(10, 185, 185);
+}
+
+body .main {
+  width: fit-content;
+  padding: 100px;
+}
+
+body .main .container {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 10%;
+  border: 1px solid green;
+}
+
+body .main .container h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+body .main .container .row {
+  height: 40px;
+  margin-top: 5px;
+  position: relative;
+  width: 250px;
+}
+
+body .main .container button {
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  background-color: white;
+  font-size: 2rem;
+  border: 0.5px red solid;
+}
+
+body .main .container button:active {
+  outline: none;
+  transform: scale(0.97);
+}
+
+body .main .container .row input {
+  position: absolute;
+  right: 0px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+body .main .container .output {
+  margin-top: 10px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+body .main .container .output span {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 30%;
+}
+
+body .main .container .output div {
+  border: 1px solid red;
+  height: 60px;
+  width: 30%;
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+}
